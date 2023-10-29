@@ -1,7 +1,7 @@
 # JavaScript Professional Portfolio
 By Ximena Toledo Rivera
 
-# Books
+## Books
 
 [JavaScript for impatient programmers](https://exploringjs.com/impatient-js/toc.html)
 
