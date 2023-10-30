@@ -32,9 +32,9 @@ TC39 is the committee that evolves JavaScript.
 
 ```mermaid
  graph TD;
-      Strawman
-      Stage0 --> Stage1; Proposal;
-      Stage1 --> Stage2; Draft
-      Stage2 --> Stage3;
-      Stage3 --> Stage4;
+      participant A as strawman
+      participant B as proposal
+      participant C as draft
+      A --> B; 
+      B --> c; 
 ```
