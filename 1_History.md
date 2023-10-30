@@ -13,3 +13,9 @@ The idea was that major interactive parts of the client-side web were to be impl
 
 1. ECMA-262 is hosted by Ecma International (primary standard).
 2. ISO/IEC 16262 is hosted by International Organization for Standardization (ISO).
+
+## Note
+The language described by these standards is called *ECMAScript*, not JavaScript.
+
+1. The term JavaScript refers to the language ans its implementation.
+2. The term ECMAScript refers to the language standard and language versions.
