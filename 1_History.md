@@ -32,6 +32,8 @@ TC39 is the committee that evolves JavaScript.
 
 ```mermaid
  graph TD;
-      A["strawman"] --> B["proposal"]; 
-      B --> C["draft"]; 
+      A["Stage 0: strawman"] --> B["Stage 1:proposal"]; 
+      B --> C["Stage 2: draft"];
+      C --> D["Stage 3: candidate"];
+      D --> E["Stage 4: Finished"];
 ```
