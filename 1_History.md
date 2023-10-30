@@ -11,4 +11,5 @@ The idea was that major interactive parts of the client-side web were to be impl
 
 ## Standardizing JavaScript
 
-1. 
+1. ECMA-262 is hosted by Ecma International (primary standard).
+2. ISO/IEC 16262 is hosted by International Organization for Standardization (ISO).
