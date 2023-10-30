@@ -19,3 +19,21 @@ The language described by these standards is called *ECMAScript*, not JavaScript
 
 1. The term JavaScript refers to the language ans its implementation.
 2. The term ECMAScript refers to the language standard and language versions.
+
+## Ecma Technical Committee 39 (TC39)
+
+TC39 is the committee that evolves JavaScript.
+
+### TC39 Process
+1. ECMAScript features are designed independently and go through stages, starting at 0 (strawman), ending at 4 (finished).
+2. The later stage require prototype implementations and real-world testing.
+3. ECMAScript Versions are released once per year and include all features that have reached stage 4 prior to a release deadline.
+
+
+```mermaid
+flowchart LR
+A[Hard] -->|Text| B(Round)
+B --> C{Decision}
+C -->|One| D[Result 1]
+C -->|Two| E[Result 2]
+```
