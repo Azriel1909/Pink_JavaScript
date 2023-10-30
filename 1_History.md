@@ -31,9 +31,9 @@ TC39 is the committee that evolves JavaScript.
 
 
 ```mermaid
-flowchart LR
-A[Hard] -->|Text| B(Round)
-B --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
+ graph TD;
+      Stage0 --> Stage1;
+      Stage1 --> Stage2;
+      Stage2 --> Stage3;
+      Stage3 --> Stage4;
 ```
