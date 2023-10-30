@@ -38,8 +38,8 @@ TC39 is the committee that evolves JavaScript.
       D --> E["Stage 4: Finished"];
 ```
 
-Stage 0: Sketch
-Stage 1: TC39 Helps
-Stage 2: Likely to be standardized
-Stage 3: Done, needs feedback from implementations
-Stage 4: Ready for standardization 
+- Stage 0: Sketch
+- Stage 1: TC39 Helps
+- Stage 2: Likely to be standardized
+- Stage 3: Done, needs feedback from implementations
+- Stage 4: Ready for standardization 
