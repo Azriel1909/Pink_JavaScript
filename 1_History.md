@@ -43,3 +43,8 @@ TC39 is the committee that evolves JavaScript.
 - Stage 2: Likely to be standardized
 - Stage 3: Done, needs feedback from implementations
 - Stage 4: Ready for standardization 
+
+## Downsides
+- JavaScript engines become bloated (they need to support both, old and the new version)
+- Programmers must be conscious of differences between versions.
+- We can migrates all oof an existing code base to the new version, or we can mix versions and refactoring becomes harder.
