@@ -48,3 +48,8 @@ TC39 is the committee that evolves JavaScript.
 - JavaScript engines become bloated (they need to support both, old and the new version)
 - Programmers must be conscious of differences between versions.
 - We can migrates all oof an existing code base to the new version, or we can mix versions and refactoring becomes harder.
+
+## One JavaScript
+- New versions are always completely backward compatible.
+- Old features are not removed or fixed.
+- If aspects of the language is changed, it is done inside new syntactic constructs.
