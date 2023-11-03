@@ -41,3 +41,38 @@ console.log('Hi, I am Ximena Toledo')
 
 // - Printing erro information to standard error
 console.error('Oh no, something went wrong!')
+
+// > Operators
+
+// * Booleans
+console.log(true && false)
+console.log(true || false)
+
+// * Numbers
+console.log(3 + 9)
+console.log(3 - 9)
+console.log(3 * 9)
+console.log(3 / 9)
+console.log(3 % 9)
+
+// * BigInts
+console.log(3n + 9n)
+console.log(3n - 9n)
+console.log(3n * 9n)
+console.log(3n / 9n)
+console.log(3n % 9n)
+
+// * Strings
+console.log('Ximena' + ' ' + 'Toledo')
+console.log('I am a' + ' ' + 'Engineer')
+
+// * Comparison
+console.log(3 < 9)
+console.log(3 <= 9)
+console.log(3 > 9)
+console.log(3 >= 9)
+console.log(3  == '3')
+console.log(3  === '3')
+
+
+
