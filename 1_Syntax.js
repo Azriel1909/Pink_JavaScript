@@ -74,5 +74,18 @@ console.log(3 >= 9)
 console.log(3  == '3')
 console.log(3  === '3')
 
+// > Declaring variables
 
+// -- cons creates immutable variable binding: Each variable must be initialized immediately and we cannot assign a different value later. Const does not make values immutable.
 
+// * Declaring and initializing x (immutable binding)
+const x = 9
+
+// x = 10 // ! TypeError: Assignment to constant variable.
+
+// -- to create mutable variable binding we use let
+let y = 9
+console.log(y)
+
+y = 19
+console.log(y)
