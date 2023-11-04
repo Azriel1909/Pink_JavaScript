@@ -111,4 +111,24 @@ console.log(mySum2(10,9))
 const mySum3 = (a,b) => a + b
 console.log(mySum3(10,3))
 
+// * Plain objects
 
+// - Creating a plain object via an object literal
+
+const myObj1 = {
+  first: 'Ximena', // Property
+  last: 'Toledo', // Property
+  getFullName() { // Property (method)
+    return this.first + ' ' + this.last
+  },
+}
+
+// - Getting a property value
+console.log(myObj1.first)
+
+// - Setting a property value
+myObj1.first = 'Joel'
+console.log(myObj1.first)
+
+// - Calling the method
+console.log(myObj1.getFullName())
