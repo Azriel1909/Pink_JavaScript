@@ -83,9 +83,32 @@ const x = 9
 
 // x = 10 // ! TypeError: Assignment to constant variable.
 
-// -- to create mutable variable binding we use let
+// - to create mutable variable binding we use let
 let y = 9
 console.log(y)
 
 y = 19
 console.log(y)
+
+// * Ordinary function declarations
+
+function mySum1(a,b){
+  return a + b
+}
+
+// * Calling the function
+
+console.log(mySum1(5,6))
+
+// * Arrow functions expressions
+// - Arrow functions whose body is a code block
+
+const mySum2 = (a,b) => { return a + b }
+console.log(mySum2(10,9))
+
+// - Equivalent: Arrow functions whose body is an expression
+
+const mySum3 = (a,b) => a + b
+console.log(mySum3(10,3))
+
+
