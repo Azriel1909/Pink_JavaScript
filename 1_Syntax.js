@@ -251,3 +251,12 @@ cachesException()
 // - Camel case: mySuperCoolVariable
 // - Snake case: my_super_cool_variable
 // - Kebab case: my-super-cool-variable
+
+// * Capitalization
+
+// - Functions: myFunction
+// - Methods: obj.myMethod
+// - CSS entity: special-class
+// - JavaScript variable: specialClass
+// - Classes: MyClass
+// - Constants: MY_CONSTANT
