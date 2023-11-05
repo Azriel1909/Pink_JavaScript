@@ -160,5 +160,20 @@ myArr1.push('f')
 
 console.log(myArr1)
 
+// * Control Flow Statements
+
 console.log('--------------------- Control Flow Statements')
 
+// - Conditional statement
+
+if (x < 0) {
+  x = -x
+}
+
+console.log(x)
+
+// - for-of loop
+
+for (const element of myArr1){
+  console.log(element)
+}
