@@ -260,3 +260,21 @@ cachesException()
 // - JavaScript variable: specialClass
 // - Classes: MyClass
 // - Constants: MY_CONSTANT
+
+// * More Naming Conventions
+
+// - If the name of a parameter starts with an underscore or it is an underscore it means that this parameter is not used
+
+// arr.map((_x, i) => i)
+
+// - If the name of a property of an object starts with an underscore then that property is considered private
+
+/**
+
+class ValueWrapper {
+  constructor(value) {
+    this._value = value;
+  }
+}
+
+ */
