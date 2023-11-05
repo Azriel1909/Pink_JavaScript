@@ -92,6 +92,8 @@ console.log(y)
 
 // * Ordinary function declarations
 
+console.log('--------------------- Functions')
+
 function mySum1(a,b){
   return a + b
 }
@@ -115,6 +117,8 @@ console.log(mySum3(10,3))
 
 // - Creating a plain object via an object literal
 
+console.log('--------------------- Objects')
+
 const myObj1 = {
   first: 'Ximena', // Property
   last: 'Toledo', // Property
@@ -132,3 +136,29 @@ console.log(myObj1.first)
 
 // - Calling the method
 console.log(myObj1.getFullName())
+
+// * Arrays
+
+// - Creating an array via an Array Literal
+
+console.log('--------------------- Arrays')
+
+const myArr1 = ['a', 'b', 'c', 'd', 'e']
+console.log(myArr1.length)
+
+// - Getting an array element
+
+console.log(myArr1[1])
+
+// - Setting an element to an array
+
+myArr1[1] = 'B'
+
+// - Adding an element to an array
+
+myArr1.push('f')
+
+console.log(myArr1)
+
+console.log('--------------------- Control Flow Statements')
+
