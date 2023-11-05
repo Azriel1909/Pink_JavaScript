@@ -223,6 +223,8 @@ console.log(ximena.describe())
 
 // * Exception Handling
 
+console.log('--------------------- Exceptions')
+
 function throwsException() {
   throw new Error('Here is a problem!')
 }
@@ -237,3 +239,15 @@ function cachesException() {
 }
 
 cachesException()
+
+// * Legal Variable and Property Names
+
+// - The grammatical category of variable names and property names is called identifier. Identifier are allowed to have Unicode letter (A-Z, a-z), $, _, Unicode digits (0-9).
+
+// ! Variables names cannot start with a digit
+
+// * Casing Styles
+
+// - Camel case: mySuperCoolVariable
+// - Snake case: my_super_cool_variable
+// - Kebab case: my-super-cool-variable
