@@ -177,3 +177,17 @@ console.log(x)
 for (const element of myArr1){
   console.log(element)
 }
+
+// * Modules
+
+// - Each module is a single file: file-tools.msj or main.msj
+
+/**
+ * The module in file-tools.msj exports its functions isTextFilePath()
+ * 
+ * export function isTextFilePath(filePath) {
+ *  return filePath.endsWith('.txt')
+ * }
+ * 
+ */
+
