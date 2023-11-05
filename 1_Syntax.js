@@ -220,3 +220,20 @@ class Employee extends Person {
 
 const ximena = new Employee ('Ximena', 'CEO')
 console.log(ximena.describe())
+
+// * Exception Handling
+
+function throwsException() {
+  throw new Error('Here is a problem!')
+}
+
+function cachesException() {
+  try {
+    throwsException()
+  } catch (err) {
+    console.log(err instanceof Error)
+    console.log(err.message)
+  }
+}
+
+cachesException()
