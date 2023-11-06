@@ -278,3 +278,5 @@ class ValueWrapper {
 }
 
  */
+
+import * as assert from 'assert/strict';
